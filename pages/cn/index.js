@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image';
-import Link from 'next/link';
 
-export default function Home() {
+export default function CnHome() {
   return (
     <div className="container">
       <Head>
@@ -15,37 +14,24 @@ export default function Home() {
           <Image src="/images/ihealth-black.jpg" height={240} width={240} alt="iHealth Global" />
         </div>
         <h1 className="title">
-          NMN iHealth Global
+          歡迎來到 iHealth NMN
         </h1>
         <h1 className="description">
-          Science Against Aging
+          這裡是最完整的中文NMN網站，提供您最充分的NMN資訊和最優質的NMN產品
         </h1>
 
         <p className="description">
-          Everyone Should Enjoy A Healthy Life!
+          也歡迎訂閱部落格，我們會即時更新NMN最新的研究進展，讓您吃的安心、用的放心!
         </p>
 
         <div className="grid">
-          <Link href="/en">
-            <div className="card">
-              <img alt="United States" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg" height={30} width={20}/>
-              <h3>Discover the power of NMN &rarr;</h3>
-              <p>NMN(Nicotinamide MonoNucleotide) is the first scientific research result that has been scientifically proven to reverse age and prolong life.</p>
-              <p>We have the determination to work together with the mission of improving health for people.</p>
-              <p>Healthy Living with NMN iHealth Global</p>
-              <p>Click here to learn more</p>
-            </div>
-          </Link>
+          <span className="card"><img alt="China" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/CN.svg" height={30} width={20}/>
+            <h3>歡迎來到 iHealth NMN &rarr;</h3>
+            <p>這裡是最完整的中文NMN網站，提供您最充分的NMN資訊和最優質的NMN產品</p>
 
-          <Link href="/cn">
-            <div className="card">
-              <img alt="China" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/CN.svg" height={30} width={20}/>
-              <h3>歡迎來到 iHealth NMN &rarr;</h3>
-              <p>這裡是最完整的中文NMN網站，提供您最充分的NMN資訊和最優質的NMN產品</p>
-              <p>iHealth Innovation Tech Corp (IITC) 愛健康研發並製造出全球唯一取得十大權威性認證的NMN基因膠囊，通過跨境電商的營運模式，將最優異的NMN產品帶到50個國家!</p>
-              <p>也歡迎訂閱部落格，我們會即時更新NMN最新的研究進展，讓您吃的安心、用的放心!</p>
-            </div>
-          </Link>
+            <p>iHealth Innovation Tech Corp (IITC) 愛健康研發並製造出全球唯一取得十大權威性認證的NMN基因膠囊，通過跨境電商的營運模式，將最優異的NMN產品帶到50個國家!</p>
+            <p>也歡迎訂閱部落格，我們會即時更新NMN最新的研究進展，讓您吃的安心、用的放心!</p>
+          </span>
 
          
         </div>
