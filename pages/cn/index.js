@@ -25,7 +25,7 @@ export default function CnHome() {
         </p>
 
         <div className="grid">
-          <span className="card"><img alt="China" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/CN.svg" height={30} width={20}/>
+          <span className="card"><img alt="China" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg" height={30} width={20}/>
             <h3>歡迎來到 iHealth NMN &rarr;</h3>
             <p>這裡是最完整的中文NMN網站，提供您最充分的NMN資訊和最優質的NMN產品</p>
 

@@ -39,7 +39,7 @@ export default function Home() {
 
           <Link href="/cn">
             <div className="card">
-              <img alt="China" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/CN.svg" height={30} width={20}/>
+              <img alt="China" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg" height={30} width={20}/>
               <h3>歡迎來到 iHealth NMN &rarr;</h3>
               <p>這裡是最完整的中文NMN網站，提供您最充分的NMN資訊和最優質的NMN產品</p>
               <p>iHealth Innovation Tech Corp (IITC) 愛健康研發並製造出全球唯一取得十大權威性認證的NMN基因膠囊，通過跨境電商的營運模式，將最優異的NMN產品帶到50個國家!</p>
