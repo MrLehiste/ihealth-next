@@ -1,62 +1,52 @@
 import Head from 'next/head'
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>iHealth Global</title>
+        <link rel="icon" href="/images/ihealth-black.ico" />
       </Head>
 
       <main>
+        <div style={{borderRadius: '10px', overflow: 'hidden'}}>
+          <Image src="/images/ihealth-black.jpg" height={240} width={240} alt="iHealth Global" />
+        </div>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          NMN iHealth Global
+        </h1>
+        <h1 className="description">
+          Science Against Aging
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Everyone Should Enjoy A Healthy Life!
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <span className="card"><img alt="United States" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg" height={30} width={20}/>
+            <h3>Discover the power of NMN &rarr;</h3>
+            <p>NMN(Nicotinamide MonoNucleotide) is the first scientific research result that has been scientifically proven to reverse age and prolong life.</p>
+            <p>We have the determination to work together with the mission of improving health for people.</p>
+            <p>Healthy Living with NMN iHealth Global</p>
+            <p>Click here to learn more</p>
+          </span>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <span className="card"><img alt="China" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/CN.svg" height={30} width={20}/>
+            <h3>歡迎來到 iHealth NMN &rarr;</h3>
+            <p>這裡是最完整的中文NMN網站，提供您最充分的NMN資訊和最優質的NMN產品</p>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            <p>iHealth Innovation Tech Corp (IITC) 愛健康研發並製造出全球唯一取得十大權威性認證的NMN基因膠囊，通過跨境電商的營運模式，將最優異的NMN產品帶到50個國家!</p>
+            <p>也歡迎訂閱部落格，我們會即時更新NMN最新的研究進展，讓您吃的安心、用的放心!</p>
+          </span>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+         
         </div>
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
+        
       </footer>
 
       <style jsx>{`
@@ -140,7 +130,7 @@ export default function Home() {
 
         .grid {
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           justify-content: center;
           flex-wrap: wrap;
 
