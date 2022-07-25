@@ -4,6 +4,11 @@ const nextConfig = {
   experimental: {
     newNextLinkBehavior: true,
   },
+  // i18n: {
+  //   locales: ['en', 'zh'],
+  //   defaultLocale: 'en',
+  //   localeDetection: false
+  // },
 }
 
 module.exports = nextConfig

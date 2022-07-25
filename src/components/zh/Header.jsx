@@ -77,11 +77,11 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#products">Products</MobileNavLink>
+            <MobileNavLink href="#features">特点</MobileNavLink>
+            <MobileNavLink href="#testimonials">感言</MobileNavLink>
+            <MobileNavLink href="#products">产品</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/register">Sign Up</MobileNavLink>
+            <MobileNavLink href="./register">报名</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -100,18 +100,18 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#products">Products</NavLink>
+              <NavLink href="#features">特点</NavLink>
+              <NavLink href="#testimonials">感言</NavLink>
+              <NavLink href="#products">产品</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="/register">Sign Up</NavLink>
+              <NavLink href="/zh/register">报名</NavLink>
             </div>
-            <Button href="/register" color="blue">
+            <Button href="/zh/register" color="blue">
               <span>
-                Get started <span className="hidden lg:inline">today</span>
+                开始 <span className="hidden lg:inline">今天</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
