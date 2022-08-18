@@ -6,6 +6,7 @@ import { PrimaryFeatures } from '@/components/zh/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/zh/SecondaryFeatures'
 import { CallToAction } from '@/components/zh/CallToAction'
 import { Testimonials } from '@/components/zh/Testimonials'
+import { VideoTestimonials } from '@/components/zh/VideoTestimonials'
 import { Pricing } from '@/components/zh/Pricing'
 import { Faqs } from '@/components/zh/Faqs'
 import { Footer } from '@/components/zh/Footer'
@@ -23,7 +24,8 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <PrimaryFeatures />
+        {/* <PrimaryFeatures /> */}
+        <VideoTestimonials />
         <SecondaryFeatures />
         <CallToAction />
         {/* <Testimonials />
